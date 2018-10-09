@@ -1,0 +1,73 @@
+ /* body code academy left html out and changed color*/
+  body {
+ background-color:white;
+ margin: 0;
+ padding: 0;
+ color: #000;
+ }
+ 
+ /* Container */
+ 
+ .container {
+ max-width: 1000px;
+ } 
+ 
+  .col-sm-3 p  {
+ color:green;
+ } 
+  /* Jumbotron code academy, w3schools, */
+  
+ .jumbotron {
+ background: url(images/header.jpg) no-repeat center center; 
+ background-size: cover; 
+ background-color: transparent;
+ height: 460px; 
+
+ } 
+ 
+ /* Navbar got navbar css code from the bootstrap file and took out what was not needed*/
+
+ .navbar-right{
+  padding-right:160px;
+  font-size:20px;
+  background-color:black ;
+  
+  }
+  
+  .navbar-collapse{
+	  background-color:black;
+  }
+.navbar-inverse {
+  background-color: black;
+  border-color: transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  height: auto;
+}
+
+.navbar.navbar-inverse {
+	background-color:black;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: black;
+}
+
+@media (max-width: 767px) {
+  
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: black;
+  }
+  
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+
+ /* Navbar end */
+ 
+ 

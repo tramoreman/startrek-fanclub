@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Startrek Fan Club</title>
+   <meta name="description" content=" The web page description that often shows up in search results goes in here.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Your Name">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	  <!-- bootstrap and jquery links -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Navbar fix so navbar corners are square not round -->
+ 
+  <style>
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+</style>
+<script>
+function myFunction(x) {
+    x.style.background = "yellow";
+}
+</script>
+</head>
+<body>
+<!-- navigation got the navbar from bootstrap-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+         <li class=""><a href="index.html">Home</a></li>
+         <li class=""><a href="films.html">Films</a></li>
+		  <li class=""><a href="tvshows.html">TV Shows</a></li>
+		   <li class=""><a href="events.html">Events</a></li>
+		    <li class=""><a href="videos.html">Videos</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  <!-- End of navigation -->

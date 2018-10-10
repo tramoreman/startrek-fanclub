@@ -6,7 +6,7 @@
  color: #000;
  }
  
- /* Container */
+
  
  .container {
  max-width: 1000px;
@@ -15,7 +15,7 @@
   .col-sm-3 p  {
  color:green;
  } 
-  /* Jumbotron code academy, w3schools, */
+
   
  .jumbotron {
  background: url(images/header.jpg) no-repeat center center; 
@@ -24,9 +24,6 @@
  height: 460px; 
 
  } 
- 
- 
-
  
   /* Header  */ 
   
@@ -45,7 +42,7 @@
  color: #fff;
  } 
  
-  /* section-1 changed supporting to section individualy and included a h2  */
+
   
  .section-1 {
 	 padding-bottom: 50px; 
@@ -59,7 +56,7 @@ padding-top: 10px;
 	 text-align:center;
  }
  
-  /* section-2 changed supporting to section individualy and included a h2 */
+
   
  .section-2  {
 	 padding-bottom: 50px; 
@@ -79,8 +76,7 @@ color:white;
 	 
  }
  
- 
- /* section-3 changed supporting to section individualy and included a h2 */
+
  
  .section-3  {
 	 padding-bottom: 50px; 
@@ -98,7 +94,7 @@ background-color: white;
  margin-top:5px; 
  } 
  
-  /* section-4  changed supporting to section individualy and included a h2 */
+
   
  .section-4 {
   background: url(images/productions.jpg) no-repeat center center; 
@@ -152,7 +148,7 @@ padding-top: 100px;
  }
  
  
-  /* Navbar got navbar css code from the bootstrap file and took out what was not needed*/
+
 
  .navbar-right{
   padding-right:160px;

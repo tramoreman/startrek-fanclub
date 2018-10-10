@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Startrek Fan Club</title>
+   <meta name="description" content=" The web page description that often shows up in search results goes in here.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Your Name">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	  <!-- bootstrap and jquery links -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="javascript/bootstrap.min.js"></script>
+    <!-- Navbar fix so navbar corners are square not round -->
+ 
+  <style>
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+</style>
+</head>
+<body>
+<!-- navigation got the navbar from bootstrap-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <a class="navbar-brand" href="#">Startrek</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+         <li class=""><a href="index.html">Home</a></li>
+         <li class=""><a href="films.html">Films</a></li>
+		  <li class=""><a href="tvshows.html">TV Shows</a></li>
+		   <li class=""><a href="events.html">Events</a></li>
+		    <li class=""><a href="videos.html">Videos</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  <!-- End of navigation -->
+ 
+ <!-- Jumbotron Container and Main used bootstrap  -->
+ <!-- used codeacademy as a guide as I had completed a course on bootstrap where there were a few example 
+ templates and was asked to make changes to them-->
+<div class="jumbotron">
+ <div class="container">
+ <div class="header"> 
+ <div class="row"> 
+ 
+ <div class="col-md-12"> 
+ 
+ </div> 
+ </div>
+ </div>
+  <div class="main col-md-12 "> 
+ <h1 class="pull-right">Startrek Fan Club</h1> 
+ </div> 
+ </div> 
+ </div> 
+ 
+<div class="section-1">
+ <div class="container"> 
+ <div class="row">
+ <div class="col-md-12"> 
+ <h2>Contact Us</h2> 
+  <form action="/validation.html ">
+  <div class="form-group">
+  
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr" placeholder=" Enter Name" required >
+    </div>
+	<div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email"   class="form-control" id="email" placeholder="Enter email" required >
+    </div>
+	
+	<div class="form-group">
+      <label for="subject">Subject:</label>
+      <input class="form-control" type="text" id="subject" placeholder="Subject" required>
+    </div>
+     <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment" placeholder="Enter Message" required></textarea>
+    </div>
+  
+    <button type="submit" class="btn btn-primary ">Get in contact with us</button>
+  </form>
+ 
+ </div> 
+ 
+
+ </div> 
+ </div> 
+ </div> 
+ 
+
+ 
+ 
+
+ <!-- footer used bootstrap-->
+  
+ 
+ 
+ <div class="footer"> 
+ <div class="container">
+ <div class="col-md-12"> 
+<p><b>Copyright &copy; 2017 All Rights Reserved StarTrek Fan Club</b></p>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ </body> 
+ </html>

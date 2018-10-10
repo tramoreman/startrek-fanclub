@@ -1,17 +1,20 @@
-# Smallroundears Website
+# Startrek fanclub Website
  
 ## Overview
  
 ### What is this website for?
- 
-This is a website for people to learn about Hippopotami and/or then test them on their knowledge.
- 
+
+The website is for startrek fans with information on films and tv series.
+There are also links to favourite startrek games websites and startrek theme park clips.
+This website has links to videos and it also has links to various wikipedia pages that has written information on tv films and series.
+
+
 ### What does it do?
  
 This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
  
 ### How does it work
- 
+
 This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
 
 ## Features

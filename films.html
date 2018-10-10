@@ -1,226 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Startrek Fan Club</title>
+  <title>Startrek Fan Club</title>
+   <meta name="description" content=" The web page description that often shows up in search results goes in here.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Your Name">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- stylesheet link -->
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<!-- bootstrap and jquery links -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src="jquery/jquery.min.js"></script>
-
-<link href="css/jquery-ui.css" rel="stylesheet">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-<!-- Navbar fix so navbar corners are square not round -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	  <!-- bootstrap and jquery links -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="jquery/script.js"></script>
+    <!-- Navbar fix so navbar corners are square not round -->
+ 
   <style>
-
 /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
-
+    
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
     }
 </style>
-
 </head>
 <body>
-<!-- navigation-->
-<nav class="navbar navbar-inverse">
-<div class="container-fluid">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>                        
-</button>
-	  
-</div>
-<div class="collapse navbar-collapse" id="myNavbar">
-<ul class="nav navbar-nav navbar-right">
-<li class=""><a href="index.html">Home</a></li>
-<li class="active"><a href="films.html">Films</a></li>
-<li class=""><a href="tvshows.html">TV Shows</a></li>
-<li class=""><a href="events.html">Events</a></li>
-<li class=""><a href="videos.html">Videos</a></li>
-<li class=""><a href="contact.html">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<!-- End of navigation -->
-  
-<!-- Jumbotron Container and Main used bootstrap  -->
+<!-- navigation got the navbar from bootstrap and w3schools-->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	   <a class="navbar-brand" href="#">Startrek</a>
 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+         <li class=""><a href="index.html">Home</a></li>
+         <li class="active"><a href="films.html">Films</a></li>
+		  <li class=""><a href="tvshows.html">TV Shows</a></li>
+		   <li class=""><a href="events.html">Events</a></li>
+		    <li class=""><a href="videos.html">Videos</a></li>
+			<li class=""><a href="contact.html">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  <!-- End of navigation -->
+  
+ <!-- Jumbotron Container and Main used bootstrap  -->
+ <!-- used codeacademy as a guide as I had completed a course on bootstrap where there were a few example 
+ templates and was asked to make changes to them-->
 <div class="jumbotron">
-<div class="container">
-<!-- 
- div class="main pull-right"> 
+ <div class="container">
+ <!-- 
+ <div class="main pull-right"> 
  -->
  
  <div class="main col-md-12 "> 
- <h1 class="text-center">Startrek Fan Club</h1> 
+ <h1 class="pull-right">Startrek Fan Club</h1> 
  </div> 
  <!--</div>--> 
  </div> 
  </div> 
  <!-- section 1  used bootstrap -->
- 
- <div class="section-1">
+  <!-- used codeacademy as a guide as I had completed a course on bootstrap where there were a few example 
+ templates and was asked to make changes to them-->
+<div class="section-1">
  <div class="container"> 
  <div class="col-md-12">
  <h2>Startrek Films</h2>
  <br>
  </div>
- 
  <div class="row">
  <div class="col-md-12"> 
- <h3>Startrek The Motion Picture - 1979</h3>
- <p><b>Plot:</b> When an alien spacecraft of enormous power is spotted approaching Earth, Admiral Kirk resumes command of the Starship Enterprise 
+  <h3>Startrek The Motion Picture - 1979</h3>
+  <p><b>Plot:</b> When an alien spacecraft of enormous power is spotted approaching Earth, Admiral Kirk resumes command of the Starship Enterprise 
   in order to intercept, examine and hopefully stop the intruder.</p>
-<p><b>Director:</b> Robert Wise</p>
-<p><b>Main Characters:</b> William Shatner - Capt. James T. Kirk, Leonard Nimoy - Spock, DeForest Kelley - Dr. McCoy,James Doohan - Scotty,
+ <p><b>Director:</b> Robert Wise</p>
+ <p><b>Main Characters:</b> William Shatner - Capt. James T. Kirk, Leonard Nimoy - Spock, DeForest Kelley - Dr. McCoy,James Doohan - Scotty,
 George Takei - Sulu, Majel Barrett - Dr. Chapel, Walter Koenig - Chekov, Nichelle Nichols - Uhura, Persis Khambatta - Ilia,
 Stephen Collins - Decker.</p>
 
 <h5 class  ="video"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top"><iframe width="560" height="315" src="https://www.youtube.com/embed/3nkegWQe1ZM"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-</div> 
-<hr>
+<p class ="top"><iframe width="420" height="315" src="https://www.youtube.com/embed/3nkegWQe1ZM"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+ </div> 
+ <hr>
  
-<div class="col-md-12"> 
-<h3>Startrek II The Wrath of Khan - 1982</h3>
-<p><b>Plot:</b>With the assistance of the Enterprise crew, Admiral Kirk must stop an old nemesis, Khan Noonien Singh, from using the life-generating 
+ <div class="col-md-12"> 
+  
+ 
+ <h3>Startrek II The Wrath of Khan - 1982</h3>
+  <p><b>Plot:</b>With the assistance of the Enterprise crew, Admiral Kirk must stop an old nemesis, Khan Noonien Singh, from using the life-generating 
   Genesis Device as the ultimate weapon.</p>
 <p><b>Director:</b>  Nicholas Meyer</p>
 <p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
 George Takei - Sulu, Nichelle Nichols - Uhura, Bibi Besch - Carol, Merritt Butrick - David, Paul Winfield - Terrell, Kirstie Alley - Saavik,
 Ricardo Montalban - Khan.</p>
  
-<h5 class  ="video1"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top1"><iframe width="560" height="315" src="https://www.youtube.com/embed/vOIYaRb6XpQ"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+ <h5 class  ="video1"><b>Film Trailer click to view or hide trailer</b></h5>
+<p class ="top1"><iframe width="420" height="315" src="https://www.youtube.com/embed/vOIYaRb6XpQ" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
 
  <div class="col-md-12"> 
   
  
-<h3>Startrek III The Search for Spock - 1984</h3>
+ <h3>Startrek III The Search for Spock - 1984</h3>
 <p><b>Plot:</b>Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet 
   to recover Spock's body.</p>
   
-<p><b>Director</b> Leonard Nimoy</p>
-<p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Capt. Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
+ <p><b>Director</b> Leonard Nimoy</p>
+ <p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Capt. Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
 George Takei - Sulu, Nichelle Nichols - Uhura, Robin Curtis - Saavik, Merritt Butrick - David, Phil Morris - Trainee Foster, Scott McGinnis - Mr. Adventure,
 Robert Hooks - Admiral Morrow, Paul Sorensen - Captain, Cathie Shirriff - Valkris, Christopher Lloyd - Commander Kruge, Mark Lenard - Sarek.
 </p><p>Film Trailer</p>
 
 <h5 class  ="video2"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top2"><iframe width="560" height="315" src="https://www.youtube.com/embed/4wzG1u4zStM" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top2"><iframe width="420" height="315" src="https://www.youtube.com/embed/4wzG1u4zStM"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr> 
  
  <div class="col-md-12"> 
   
  
-<h3>Startrek IV The Voyage Home - 1986</h3>
-<p><b>Plot:</b>To save Earth from an alien probe, Admiral James T. Kirk and his fugitive crew go back in time to San Francisco in 1986 to 
+ <h3>Startrek IV The Voyage Home - 1986</h3>
+ <p><b>Plot:</b>To save Earth from an alien probe, Admiral James T. Kirk and his fugitive crew go back in time to San Francisco in 1986 to 
   retrieve the only beings who can communicate with it: humpback whales.</p>
-<p><b>Director</b> Leonard Nimoy</p>
-<p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Capt. Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
+  <p><b>Director</b> Leonard Nimoy</p>
+ <p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Capt. Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
 George Takei - Sulu, Nichelle Nichols - Uhura, Jane Wyatt - Amanda, Catherine Hicks - Gillian, Mark Lenard - Sarek, Robin Curtis - Lt. Saavik,
 Robert Ellenstein - Federation Council President, John Schuck - Klingon Ambassador, Brock Peters - Admiral Cartwright, 
 Michael Snyder - Starfleet Communications Officer, Michael Berryman - Starfleet Display Officer.</p>
 <p>Film Trailer</p>
 
 <h5 class  ="video3"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top3"><iframe width="560" height="315" src="https://www.youtube.com/embed/VW7neKZFKE0"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top3"><iframe width="420" height="315" src="https://www.youtube.com/embed/VW7neKZFKE0"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr> 
  
-<div class="col-md-12"> 
+ <div class="col-md-12"> 
   
  
-<h3>Startrek V The Final Frontier - 1989</h3>
-<p><b>Plot:</b>Captain Kirk and his crew must deal with Mr. Spock's long-lost half-brother who hijacks the Enterprise for an 
+ <h3>Startrek V The Final Frontier - 1989</h3>
+  <p><b>Plot:</b>Captain Kirk and his crew must deal with Mr. Spock's long-lost half-brother who hijacks the Enterprise for an 
   obsessive search for God at the center of the galaxy.</p>
-<p><b>Director: William Shatner</b></p>
-<p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
+ <p><b>Director: William Shatner</b></p>
+ <p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
 George Takei - Sulu, Nichelle Nichols - Uhura, David Warner - St. John Talbot, Laurence Luckinbill - Sybok, Charles Cooper - Korrd,
 Cynthia Gouw - Caithlin Dar, Todd Bryant - Captain Klaa, Spice Williams-Crosby - Vixis, Rex Holman - J'onn, George Murdock - God,
 Jonathan Simpson - Young Sarek, Beverly Hart - High Priestess, Steve Susskind - Pitchman, Harve Bennett - Starfleet Chief of Staff.
 Cynthia Blaise - Amanda, Bill Quinn - McCoy's Father </p>
 <h5 class  ="video4"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top4"><iframe width="560" height="315" src="https://www.youtube.com/embed/XE7_pOy_jZk"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-</div>
-<hr>
- 
-<div class="col-md-12"> 
-  
- 
-<h3>Startrek VI The Undiscovered Country - 1991</h3>
-  
-<p><b>Plot:</b>On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. 
-  The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.</p>
-<p><b>Director:  Nicholas Meyer</b></p>
-<p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
-George Takei - Sulu, Nichelle Nichols - Uhura, Kim Cattrall - Lt. Valeris,Mark Lenard - Sarek, Grace Lee Whitney - Excelsior Communications Officer,
-Brock Peters - Admiral Cartwright, Leon Russom - Chief in Command, Kurtwood Smith - Federation President, Christopher Plummer - Chang,
-Rosanna DeSoto - Azetbur (as Rosana DeSoto), David Warner - Chancellor Gorkon, John Schuck - Klingon Ambassador, Michael Dorn - Klingon Defense Attorney
-Paul Rossilli - Kerla, Robert Easton - Klingon Judge, Clifford Shegog - Klingon Officer.</p>
-<h5 class  ="video5"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top5"><iframe width="560" height="315" src="https://www.youtube.com/embed/PiRN2Jz_2KI"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-</div>
-<hr>
- 
-<div class="col-md-12"> 
-  
- 
-<h3>Startrek Generations - 1994</h3>
-  
-<p><b>Plot:</b>Captain Picard, with the help of long presumed dead Captain Kirk, must stop a madman willing to murder on a planetary scale in order to enter an energy ribbon.</p>
-<p><b>Director: David Carson</b></p>
-<p><b>Main Characters:</b>Patrick Stewart - Picard, Jonathan Frakes - Riker, Brent Spiner - Data, LeVar Burton - Geordi, Michael Dorn - Worf,
-Gates McFadden - Beverly, Marina Sirtis - Troi, Malcolm McDowell - Soran, James Doohan - Scotty, Walter Koenig - Chekov,
-William Shatner - Kirk, Alan Ruck - Capt. Harriman, Jacqueline Kim - Demora ,Jenette Goldstein - Science Officer
-Thomas Kopache - Com Officer, Glenn Morshower - Navigator, Tim Russ - Lieutenant </p>
-<h5 class  ="video6"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top6"><iframe width="560" height="315" src="https://www.youtube.com/embed/FDXgeo_1w8k"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-</div>
-<hr>
- 
-<div class="col-md-12"> 
-  
- 
-<h3>Startrek First Contact - 1996</h3>
-<p><b>Plot:</b>The Borg travel back in time intent on preventing Earth's first contact with an alien species. 
-  Captain Picard and his crew pursue them to ensure that Zefram Cochrane makes his maiden flight reaching warp speed.</p>
-<p><b>Director:  Jonathan Frakes</b></p>
-<p><b>Main Characters:</b>	Patrick Stewart - Picard, Jonathan Frakes - Riker, Brent Spiner - Data, LeVar Burton - Geordi 
-Michael Dorn - Worf, Gates McFadden - Beverly, Marina Sirtis - Troi, Alfre Woodard - Lily, James Cromwell - Zefram Cochran,
-Alice Krige - Borg Queen, Michael Horton - Security Officer, Neal McDonough - Lt. Hawk, Marnie McPhail - Eiger
-Robert Picardo - Holographic Doctor, Dwight Schultz - Lt. Barclay, Adam Scott - Defiant Conn Officer, Jack Shearer - Admiral Hayes</p>
-<h5 class  ="video7"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top7"><iframe width="560" height="315" src="https://www.youtube.com/embed/YQ1eiEvefKI"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top4"><iframe width="420" height="315" src="https://www.youtube.com/embed/XE7_pOy_jZk"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
  <div class="col-md-12"> 
   
  
-<h3>Startrek Insurrection - 1998</h3>
-<p><b>Plot:</b>When the crew of the Enterprise learn of a Federation conspiracy against the inhabitants of a unique planet, Captain Picard begins an open rebellion.</p>
-<p><b>Director:  Jonathan Frakes</b></p>
-<p><b>Main Characters:</b> Patrick Stewart - Picard, Jonathan Frakes	 - Riker, Brent Spiner - Data, LeVar Burton - Geordi, Michael Dorn - Worf
+ <h3>Startrek VI The Undiscovered Country - 1991</h3>
+  
+  <p><b>Plot:</b>On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. 
+  The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.</p>
+ <p><b>Director:  Nicholas Meyer</b></p>
+ <p><b>Main Characters:</b> William Shatner - Kirk, Leonard Nimoy - Spock, DeForest Kelley - McCoy, James Doohan - Scotty, Walter Koenig - Chekov,
+George Takei - Sulu, Nichelle Nichols - Uhura, Kim Cattrall - Lt. Valeris,Mark Lenard - Sarek, Grace Lee Whitney - Excelsior Communications Officer,
+Brock Peters - Admiral Cartwright, Leon Russom - Chief in Command, Kurtwood Smith - Federation President, Christopher Plummer - Chang,
+Rosanna DeSoto - Azetbur (as Rosana DeSoto), David Warner - Chancellor Gorkon, John Schuck - Klingon Ambassador, Michael Dorn - Klingon Defense Attorney
+Paul Rossilli - Kerla, Robert Easton - Klingon Judge, Clifford Shegog - Klingon Officer.</p>
+<h5 class  ="video5"><b>Film Trailer click to view or hide trailer</b></h5>
+<p class ="top5"><iframe width="420" height="315" src="https://www.youtube.com/embed/PiRN2Jz_2KI"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</div>
+<hr>
+ 
+ <div class="col-md-12"> 
+  
+ 
+ <h3>Startrek Generations - 1994</h3>
+  
+ <p><b>Plot:</b>Captain Picard, with the help of long presumed dead Captain Kirk, must stop a madman willing to murder on a planetary scale in order to enter an energy ribbon.</p>
+ <p><b>Director: David Carson</b></p>
+ <p><b>Main Characters:</b>Patrick Stewart - Picard, Jonathan Frakes - Riker, Brent Spiner - Data, LeVar Burton - Geordi, Michael Dorn - Worf,
+Gates McFadden - Beverly, Marina Sirtis - Troi, Malcolm McDowell - Soran, James Doohan - Scotty, Walter Koenig - Chekov,
+William Shatner - Kirk, Alan Ruck - Capt. Harriman, Jacqueline Kim - Demora ,Jenette Goldstein - Science Officer
+Thomas Kopache - Com Officer, Glenn Morshower - Navigator, Tim Russ - Lieutenant </p>
+<h5 class  ="video6"><b>Film Trailer click to view or hide trailer</b></h5>
+<p class ="top6"><iframe width="420" height="315" src="https://www.youtube.com/embed/FDXgeo_1w8k"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</div>
+<hr>
+ 
+ <div class="col-md-12"> 
+  
+ 
+ <h3>Startrek First Contact - 1996</h3>
+ <p><b>Plot:</b>The Borg travel back in time intent on preventing Earth's first contact with an alien species. 
+  Captain Picard and his crew pursue them to ensure that Zefram Cochrane makes his maiden flight reaching warp speed.</p>
+ <p><b>Director:  Jonathan Frakes</b></p>
+ <p><b>Main Characters:</b>	Patrick Stewart - Picard, Jonathan Frakes - Riker, Brent Spiner - Data, LeVar Burton - Geordi 
+Michael Dorn - Worf, Gates McFadden - Beverly, Marina Sirtis - Troi, Alfre Woodard - Lily, James Cromwell - Zefram Cochran,
+Alice Krige - Borg Queen, Michael Horton - Security Officer, Neal McDonough - Lt. Hawk, Marnie McPhail - Eiger
+Robert Picardo - Holographic Doctor, Dwight Schultz - Lt. Barclay, Adam Scott - Defiant Conn Officer, Jack Shearer - Admiral Hayes</p>
+<h5 class  ="video7"><b>Film Trailer click to view or hide trailer</b></h5>
+<p class ="top7"><iframe width="420" height="315" src="https://www.youtube.com/embed/YQ1eiEvefKI"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</div>
+<hr>
+ 
+ <div class="col-md-12"> 
+  
+ 
+ <h3>Startrek Insurrection - 1998</h3>
+  <p><b>Plot:</b>When the crew of the Enterprise learn of a Federation conspiracy against the inhabitants of a unique planet, Captain Picard begins an open rebellion.</p>
+ <p><b>Director:  Jonathan Frakes</b></p>
+ <p><b>Main Characters:</b> Patrick Stewart - Picard, Jonathan Frakes	 - Riker, Brent Spiner - Data, LeVar Burton - Geordi, Michael Dorn - Worf
 Gates McFadden - Beverly, Marina Sirtis - Troi, F. Murray Abraham - Ru'afo, Donna Murphy - Anij, Anthony Zerbe - Dougherty
 Gregg Henry - Gallatin, Daniel Hugh Kelly - Sojef, Michael Welch - Artim, Mark Deakins - Tournel, Stephanie Niznik - Perim
 Michael Horton - Lt. Daniels, Bruce French - Son'a Officer #1, Breon Gorman - Lt. Curtis, John Hostetter - Bolian Officer
@@ -229,51 +232,51 @@ Raye Birk - Son'a Doctor, Peggy Miley - Regent Cuzar
  
 </p>
 <h5 class  ="video8"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top8"><iframe width="560" height="315" src="https://www.youtube.com/embed/N1XmtdMZdL8"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top8"><iframe width="420" height="315" src="https://www.youtube.com/embed/N1XmtdMZdL8"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
-<div class="col-md-12"> 
+ <div class="col-md-12"> 
   
  
-<h3>Startrek Nemesis - 2002</h3>
-<p><b>Plot:</b>The Enterprise is diverted to the Romulan homeworld Romulus, supposedly because they want to negotiate a peace treaty.</p>
-<p><b>Director:  Stuart Baird</b></p>
-<p><b>Main Characters:</b>Patrick Stewart - Jean-Luc Picard, Jonathan Frakes - William Riker, Brent Spiner - Data / B-4,
+ <h3>Startrek Nemesis - 2002</h3>
+  <p><b>Plot:</b>The Enterprise is diverted to the Romulan homeworld Romulus, supposedly because they want to negotiate a peace treaty.</p>
+ <p><b>Director:  Stuart Baird</b></p>
+ <p><b>Main Characters:</b>Patrick Stewart - Jean-Luc Picard, Jonathan Frakes - William Riker, Brent Spiner - Data / B-4,
 LeVar Burton - Geordi La Forge, Michael Dorn - Worf, Marina Sirtis - Deanna Troi, Gates McFadden - Beverly Crusher,
 Tom Hardy - Shinzon, Ron Perlman - Viceroy, Shannon Cochran - Senator Tal'aura, Dina Meyer - Commander Donatra,
 Jude Ciccolella - Commander Suran, Alan Dale - Praetor Hiren, John Berg - Senator Michael Owen - Helm Officer Branson,
 Kate Mulgrew - Admiral Janeway, Robertson Dean - Reman Officer, David Ralphe - Commander, J. Patrick McCormack - Commander
 Wil Wheaton - Wesley Crusher, Majel Barrett - Computer (voice) (as Majel Barrett Roddenberry)</p>
 <h5 class  ="video9"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top9"><iframe width="560" height="315" src="https://www.youtube.com/embed/hjBZXX9ME3k"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top9"><iframe width="420" height="315" src="https://www.youtube.com/embed/hjBZXX9ME3k"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
-<div class="col-md-12"> 
+ <div class="col-md-12"> 
   
  
-<h3>Startrek - 2009</h3>
-<p><b>Plot:</b>The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy 
+ <h3>Startrek - 2009</h3>
+ <p><b>Plot:</b>The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy 
   the Federation one planet at a time.</p>
-<p><b>Director:  J.J. Abrams</b></p>
-<p><b>Main Characters:</b>Chris Pine - Kirk, Zachary Quinto - Spock, Leonard Nimoy - Spock Prime, Eric Bana - Nero,
+ <p><b>Director:  J.J. Abrams</b></p>
+ <p><b>Main Characters:</b>Chris Pine - Kirk, Zachary Quinto - Spock, Leonard Nimoy - Spock Prime, Eric Bana - Nero,
 Bruce Greenwood - Pike, Karl Urban - Bones, Zoe Saldana - Uhura, Simon Pegg - Scotty, John Cho - Sulu, Anton Yelchin - Chekov,
 Ben Cross - Sarek, Winona Ryder - Amanda Grayson, Chris Hemsworth - George Kirk, Jennifer Morrison - Winona Kirk, Rachel Nichols - Gaila
 Faran Tahir - Captain Robau, Clifton Collins Jr - Ayel, Tony Elias - Officer Pitts (as Antonio Elias).</p>
 <h5 class  ="video10"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top10"><iframe width="560" height="315" src="https://www.youtube.com/embed/pKFUZ10Wmbw" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top10"><iframe width="420" height="315" src="https://www.youtube.com/embed/pKFUZ10Wmbw"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
-<div class="col-md-12"> 
+ <div class="col-md-12"> 
   
  
-<h3>Startrek Into Darkness - 2013</h3>
-<p><b>Plot:</b>After the crew of the Enterprise find an unstoppable force of terror from within their own organization, 
+ <h3>Startrek Into Darkness - 2013</h3>
+  <p><b>Plot:</b>After the crew of the Enterprise find an unstoppable force of terror from within their own organization, 
   Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.</p>
-<p><b>Director:  J.J. Abrams</b></p>
-<p><b>Main Characters:</b> Chris Pine - Kirk, Zachary Quinto - Spock, Zoe Saldana - Uhura,  Karl Urban - Bones,
+ <p><b>Director:  J.J. Abrams</b></p>
+  <p><b>Main Characters:</b> Chris Pine - Kirk, Zachary Quinto - Spock, Zoe Saldana - Uhura,  Karl Urban - Bones,
 Simon Pegg - Scotty, John Cho - Sulu, Benedict Cumberbatch - Khan, Anton Yelchin - Chekov, Bruce Greenwood -  Pike,
 Peter Weller - Marcus, Alice Eve - Carol Marcus, Noel Clarke - Thomas Harewood, Nazneen Contractor - Rima Harewood,
 Amanda Foreman, Ensign Brackett - Jay Scully, Lieutenant Chapin - Jonathan Dixon, Ensign Froman - Aisha Hinds, 
@@ -281,25 +284,25 @@ Navigation Officer Darwin, Joseph Gatt - Science Officer 0718, Jeremy Raymond - 
 Kimberly Arland - Madeline, Sean Blakemore - Klingon, Nick E. Tarabay - Klingon, Beau Billingslea - Captain Abbot.
 </p>
 <h5 class  ="video11"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top11"><iframe width="560" height="315" src="https://www.youtube.com/embed/QAEkuVgt6Aw"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top11"><iframe width="420" height="315" src="https://www.youtube.com/embed/QAEkuVgt6Aw"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
-<div class="col-md-12"> 
+ <div class="col-md-12"> 
   
  
-<h3>Startrek Beyond - 2016</h3>
-<p><b>Plot:</b>The U.S.S. Enterprise crew explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, 
+ <h3>Startrek Beyond - 2016</h3>
+ <p><b>Plot:</b>The U.S.S. Enterprise crew explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, 
   and everything the Federation stands for, to the test.</p>
-<p><b>Director:  Justin Lin</b></p>
-<p><b>Main Characters:</b> Chris Pine - Captain James T. Kirk, Zachary Quinto - Commander Spock, Karl Urban - Doctor 'Bones' McCoy, Zoe Saldana - Lieutenant Uhura,
+ <p><b>Director:  Justin Lin</b></p>
+ <p><b>Main Characters:</b> Chris Pine - Captain James T. Kirk, Zachary Quinto - Commander Spock, Karl Urban - Doctor 'Bones' McCoy, Zoe Saldana - Lieutenant Uhura,
 Simon Pegg - Montgomery 'Scotty' Scott, John Cho - Sulu, Anton Yelchin, Chekov - Idris Elba, Krall - Sofia Boutella, Jaylah - Joe Taslim, Manas - Lydia Wilson,	 
 Kalara - Deep Roy, Keenser - Melissa Roxburgh, Ensign Syl - Anita Brown, Tyvanna - Doug Jung, Ben - Danny Pudi, Fi'Ja - Kim Kold, Zavanko - Fraser Aitcheson,	  
 Hider - Matthew MacCaull, Blue Shirt - Emy Aneke, Shohreh Aghdashloo - Commodore Paris, Greg Grunberg - Commander Finnegan, Jennifer Cheon - Control Tower Technician,
 Jarod Joseph - Control Tower Technician, Jeremy Raymond - Control Tower Technician, Harry Han - Kissing Guy, Adam DiMarco - Injured Red Shirt
 Fiona Vroom - Orion Girl, Richard Laurence - Chancellor Ambassador. </p>
 <h5 class  ="video12"><b>Film Trailer click to view or hide trailer</b></h5>
-<p class ="top12"><iframe width="560" height="315" src="https://www.youtube.com/embed/bzD8H6o1awQ"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p class ="top12"><iframe width="420" height="315" src="https://www.youtube.com/embed/bzD8H6o1awQ" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </div>
 <hr>
  
@@ -308,7 +311,12 @@ Fiona Vroom - Orion Girl, Richard Laurence - Chancellor Ambassador. </p>
  </div> 
  
  </div> 
- <!-- footer used bootstrap-->
+
+ 
+ 
+
+ 
+    <!-- footer used bootstrap-->
  
  
  <div class="footer"> 
